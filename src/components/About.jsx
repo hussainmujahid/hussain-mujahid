@@ -4,10 +4,10 @@ import { Code2, Globe, Users, Rocket } from 'lucide-react';
 import { personalInfo } from '../data/personalInfo';
 
 const stats = [
-  { icon: Code2, value: '50+', label: 'Projects Completed' },
-  { icon: Users, value: '20+', label: 'Happy Clients' },
-  { icon: Globe, value: '10+', label: 'Countries Served' },
-  { icon: Rocket, value: '5+', label: 'Years Experience' },
+  { icon: Code2, value: '2', label: 'Q1 First-Author Papers' },
+  { icon: Users, value: '5+', label: 'Years Teaching' },
+  { icon: Globe, value: '3', label: 'Countries (China, Pakistan, Canada)' },
+  { icon: Rocket, value: '3+', label: 'Major Projects' },
 ];
 
 export default function About() {
@@ -37,12 +37,12 @@ export default function About() {
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">
               {personalInfo.about}
             </p>
-            <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-              I'm constantly learning and exploring new technologies to stay ahead in 
-              the fast-paced world of web development. I believe in writing clean, 
-              maintainable code and creating exceptional user experiences.
+
+            <p className="text-gray-600 dark:text-gray-400 leading-relaxed mt-4">
+              <strong>Current focus:</strong> Training-free generative models for medical image super-resolution 
+              (Rectified Flow, geometric priors, zero-shot CT→MRI generalization).
             </p>
-            
+
             <div className="mt-6 grid grid-cols-2 gap-4">
               <div>
                 <p className="text-gray-500">Email</p>

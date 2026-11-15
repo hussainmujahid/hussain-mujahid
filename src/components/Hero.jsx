@@ -27,7 +27,7 @@ export default function Hero() {
               transition={{ delay: 0.2 }}
               className="inline-block px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-600 rounded-full text-sm mb-4"
             >
-              Silver Medalist | Front-End Developer | AI Researcher
+              CSC Scholar | AI/CV Researcher | CS Instructor
             </motion.div>
             
             <motion.h1
@@ -91,8 +91,8 @@ export default function Hero() {
                 }}
                 className="px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:opacity-90 transition-opacity"
               >
-                Hire Me
-              </button>
+                Get In Touch
+            </button>
               <button className="px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-colors flex items-center gap-2">
                 <Download size={18} />
                 Download Resume
@@ -132,11 +132,8 @@ export default function Hero() {
               
               {/* Profile Image Container */}
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500 shadow-xl">
-                <img
-                  src="../../public/assets/profile.png"
-                  alt={personalInfo.name}
-                  className="w-full h-full object-cover"
-                />
+                <img src="/assets/profile.png" alt={personalInfo.name} className="w-full h-full object-cover" />
+
               </div>
               
               {/* Decorative elements */}

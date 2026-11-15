@@ -1,15 +1,15 @@
-import { Heart, Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Heart, Github, Linkedin, Twitter, Mail, GraduationCap } from 'lucide-react';
 import { personalInfo } from '../data/personalInfo';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   
-  const socialLinks = [
-    { icon: Github, href: personalInfo.github },
-    { icon: Linkedin, href: personalInfo.linkedin },
-    { icon: Twitter, href: personalInfo.twitter },
-    { icon: Mail, href: `mailto:${personalInfo.email}` },
-  ];
+const socialLinks = [
+  { icon: Github, href: personalInfo.github },
+  { icon: Linkedin, href: personalInfo.linkedin },
+  { icon: GraduationCap, href: personalInfo.orcid }, // ORCID
+  { icon: Mail, href: `mailto:${personalInfo.email}` },
+];
 
   return (
     <footer className="bg-white dark:bg-gray-900 border-t dark:border-gray-800 py-8">

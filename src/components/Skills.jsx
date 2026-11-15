@@ -2,13 +2,14 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { personalInfo } from '../data/personalInfo';
-import { Code, Database, Server, Wrench, Star } from 'lucide-react';
+import { Code, Database, Server, Wrench, Star, Microscope } from 'lucide-react';
 
 const skillCategories = [
   { icon: Code, title: 'Frontend', skills: personalInfo.skills.frontend, color: 'from-blue-500 to-cyan-500' },
   { icon: Server, title: 'Backend', skills: personalInfo.skills.backend, color: 'from-green-500 to-teal-500' },
   { icon: Database, title: 'Database', skills: personalInfo.skills.database, color: 'from-purple-500 to-pink-500' },
-  { icon: Wrench, title: 'Tools & Technologies', skills: personalInfo.skills.tools, color: 'from-orange-500 to-red-500' },
+  { icon: Wrench, title: 'Tools & Deployment', skills: personalInfo.skills.tools, color: 'from-orange-500 to-red-500' },
+  { icon: Microscope, title: 'AI / Deep Learning', skills: ['PyTorch', 'CNNs', 'GANs', 'Transformers', 'Diffusion Models', 'Rectified Flow', 'Flow Matching', 'NIfTI/DICOM', 'SimpleITK'], color: 'from-indigo-500 to-purple-500' },
 ];
 
 export default function Skills() {

@@ -53,7 +53,7 @@ export default function Contact() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mt-4">
-            Have a project in mind? I'd love to hear from you. Let's work together!
+            Interested in collaboration on medical imaging AI, generative models, or CS instruction? Feel free to reach out.
           </p>
         </motion.div>
         

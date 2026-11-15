@@ -1,270 +1,201 @@
-// src/data/personalInfo.js (Complete Updated Version)
-
 export const personalInfo = {
   name: "Mujahid Hussain",
-  title: "Front-End Developer & Computer Science Lecturer",
-  tagline: "6.5+ years of experience in React.js, JavaScript, TypeScript, and academic instruction",
-  email: "hosain.mujahid@gmail.com",
+  title: "AI/CV Research Engineer & CS Instructor",
+  tagline: "MSc CS (CSC Scholar, GPA 3.91) | Medical Image Super-Resolution · Generative Models · PyTorch | 5+ years teaching & research",
+  email: "hussainmujahid@stu.ouc.edu.cn",
   phone: "+86 19854251625",
   location: "Qingdao, China",
-  wechat: "Jalbane",
-  whatsapp: "+923073108577",
-  nationality: "Pakistani",
-  github: "https://github.com/mujahidhussain",
-  linkedin: "https://linkedin.com/in/mujahidhussain",
-  
-  // Current Education - Master's Degree
-  currentEducation: {
-    degree: "Master of Science in Computer Science and Technology",
-    institution: "Ocean University of China",
-    location: "Qingdao, China",
-    period: "08/2024 - Present",
-    researchArea: "Image Super-Resolution",
-    thesis: "Advanced Deep Learning Methods for Image Super-Resolution",
-    supervisor: "Professor Wang Xiaodong"
-  },
-  
-  about: `Dynamic Computer Science professional with 6.5+ years of experience in both Software Engineering and Academic Instruction. Currently pursuing Master's degree in Computer Science and Technology at Ocean University of China, specializing in Image Super-Resolution research. Combines strong technical skills in Front-end Development (React.js, JavaScript, TypeScript) with a passion for teaching and mentoring future technologists. Proven ability to simplify complex concepts through engaging, hands-on approaches while developing scalable web applications. Committed to fostering student success through innovative teaching methods and real-world technical expertise.`,
-  
-  researchInterests: [
-    "Image Super-Resolution",
-    "Computer Vision",
-    "Deep Learning",
-    "Generative AI",
-    "Medical Image Processing"
-  ],
-  
-  skills: {
-    frontend: ["React.js", "JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "Tailwind CSS", "Material UI", "Ant Design", "Electron.js"],
-    backend: ["Python", "PHP", "REST APIs", "GraphQL"],
-    database: ["MySQL", "MongoDB", "MySQLite3", "SQLite"],
-    research: ["Deep Learning", "Computer Vision", "Image Processing", "PyTorch", "TensorFlow", "OpenCV"],
-    tools: ["Git", "Postman", "Figma", "Jira", "VS Code", "Docker", "Agile/Scrum"],
-  },
-  
-  achievements: [
-    {
-      title: "Huawei Cup - 7th China Graduate AI Innovation Competition",
-      award: "Third Prize - International Group",
-      project: "SafeAgingAI: Intelligent Monitoring for Elderly Safety",
-      team: "Hussain Mujahid, Esa Muhammad, Meghwar Manesh",
-      supervisor: "Professor Yuezun Li",
-      date: "2025",
-      certificateNumber: "2025GJ010"
-    },
-    {
-      title: "Silver Medalist",
-      award: "Bachelor of Science in Software Engineering",
-      institution: "University of Sindh",
-      date: "2018"
-    },
-    {
-      title: "Final Year Second Best Project Award",
-      institution: "University of Sindh",
-      date: "2018"
-    }
-  ],
-  
-  experience: [
-    {
-      company: "Government Junior School",
-      position: "School Teacher",
-      period: "01/2023 - Present",
-      location: "Canada (Remote)",
-      description: "Developed responsive single-page applications (SPAs) using React.js, JavaScript (ES6+), and TypeScript.",
-      achievements: [
-        "Developed responsive SPAs using React.js, JavaScript (ES6+), and TypeScript, ensuring seamless performance across web and mobile platforms",
-        "Leveraged component-based architecture to build reusable UI components (hooks, custom contexts), reducing code redundancy by 40%",
-        "Optimized front-end performance through React.memo, lazy loading, and efficient state management (Context API/Redux)",
-        "Ensured cross-browser compatibility and accessibility compliance (WCAG) using modern CSS-in-JS libraries",
-        "Collaborated in Agile workflows to integrate RESTful APIs/GraphQL endpoints, enhancing dynamic data rendering"
-      ]
-    },
-    {
-      company: "Precise Technology - Canada (Remote)",
-      position: "Front-End Developer",
-      period: "01/2023 - 05/2023",
-      location: "Canada (Remote)",
-      description: "Developed responsive single-page applications (SPAs) using React.js, JavaScript (ES6+), and TypeScript.",
-      achievements: [
-        "Developed responsive SPAs using React.js, JavaScript (ES6+), and TypeScript, ensuring seamless performance across web and mobile platforms",
-        "Leveraged component-based architecture to build reusable UI components (hooks, custom contexts), reducing code redundancy by 40%",
-        "Optimized front-end performance through React.memo, lazy loading, and efficient state management (Context API/Redux)",
-        "Ensured cross-browser compatibility and accessibility compliance (WCAG) using modern CSS-in-JS libraries",
-        "Collaborated in Agile workflows to integrate RESTful APIs/GraphQL endpoints, enhancing dynamic data rendering"
-      ]
-    },
-    {
-      company: "IBA Community College - Sukkur",
-      position: "Lecturer - Computer Science",
-      period: "10/2019 - 12/2022",
-      location: "Khairpur, Pakistan",
-      description: "Taught computer science courses and mentored students in software development.",
-      achievements: [
-        "Met with students outside of class to answer questions, explain difficult concepts and address individual concerns",
-        "Developed accurate course descriptions and selected high-quality learning materials for course consistency",
-        "Designed engaging lesson plans and interactive activities to foster student software development concepts",
-        "Maintained a positive classroom environment encouraging critical thinking, creativity, and teamwork",
-        "Participated in professional development workshops to stay updated with latest advancements",
-        "Implemented innovative teaching methodologies that improved student engagement by 35%"
-      ]
-    }
-  ],
-  
+  wechat: "Jalbanee",
+  whatsapp: "+92 3073108577",
+
+  // Social
+  github: "https://github.com/hussainmujahid",
+  linkedin: "https://linkedin.com/in/hussainmujahid",
+  orcid: "https://orcid.org/0009-0002-4980-7967",
+  twitter: "", // leave empty if not active
+
+  // About (used in About.jsx)
+  about: "I build deep learning systems for medical image super-resolution and restoration, focusing on training-free and single-step generative approaches (Rectified Flow, Flow Matching, geometric priors). My work achieves zero-shot cross-modality generalization (e.g., trained on CT to zero-shot to MRI) with SOTA PSNR/SSIM. I also have 5+ years of experience teaching CS/AI courses including Python, ML, Computer Vision, and Software Engineering.",
+
+  // Education
   education: [
     {
-      degree: "Master of Science in Computer Science and Technology",
+      degree: "Masters in Computer Technology (EQF Level 7)",
       institution: "Ocean University of China",
       location: "Qingdao, China",
-      period: "08/2024 - Present",
-      researchArea: "Image Super-Resolution",
+      period: "Sep 2024 – Jul 2027 (expected)",
+      researchArea: "Image Super-Resolution using Deep Learning (Medical Imaging)",
       achievements: [
-        "Research focus: Deep Learning based Image Super-Resolution techniques",
-        "Huawei Cup 3rd Prize Winner - AI Innovation Competition",
-        "Working on advanced neural networks for image enhancement"
-      ]
+        "Chinese Government Scholarship (CSC) — Full scholarship",
+        "GPA: 3.91/4.00",
+        "First-author of 2 JCR Q1 manuscripts (ESWA, Pattern Recognition)",
+      ],
     },
     {
-      degree: "Bachelor of Science in Software Engineering",
+      degree: "B.S. in Software Engineering (EQF Level 6)",
       institution: "University of Sindh",
       location: "Jamshoro, Pakistan",
-      period: "01/2015 - 12/2018",
+      period: "Jan 2015 – March 2019",
       achievements: [
-        "Silver Medalist - Academic Excellence Award",
-        "Recipient of Final Year Second Best Project Award"
-      ]
-    }
+        "Silver Medalist",
+        "Final Year Second Best Project Award (Student Attendance System)",
+      ],
+    },
   ],
-  
+
+  // Experience
+  experience: [
+    {
+      position: "Subject Specialist — Computer Science",
+      company: "IBA Community College, Khairpur",
+      period: "Oct 2019 – Aug 2024",
+      description: "Taught software engineering and programming courses; developed curriculum and mentored students.",
+      achievements: [
+        "Designed engaging lesson plans for Python, ML, and Software Engineering",
+        "Conducted one-on-one sessions and maintained a positive classroom environment",
+        "Participated in professional development workshops on CS education",
+      ],
+    },
+    {
+      position: "Lab Instructor",
+      company: "Newtech Learning Institute, Pakistan",
+      period: "Apr 2019 – Oct 2019",
+      description: "Taught programming languages and computer operator courses.",
+      achievements: [
+        "Delivered hands-on lab sessions for multiple programming languages",
+      ],
+    },
+    {
+      position: "Front-End Developer (Remote)",
+      company: "Precise Technology, Canada",
+      period: "Jan 2023 – Aug 2023",
+      description: "Developed responsive SPAs using React.js, TypeScript, and modern frontend tooling.",
+      achievements: [
+        "Built reusable UI components with hooks and custom contexts",
+        "Optimized performance via React.memo, lazy loading, and state management",
+        "Collaborated in Agile workflows integrating RESTful APIs/GraphQL",
+      ],
+    },
+  ],
+
+  // Projects (only what's in your CV + real portfolio links)
   projects: [
     {
       id: 1,
-      name: "Nexus E-commerce Marketplace",
-      description: "Complete multi-vendor e-commerce platform with real-time CRUD, store management, payment processing, and customer dashboard. Supports multiple stores, product management, order tracking, and admin analytics.",
-      technologies: ["React.js", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Socket.io", "JWT"],
-      image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=600",
-      demo: "https://nexus-marketplace.vercel.app",
-      github: "https://github.com/mujahidhussain/nexus-marketplace",
+      name: "GeoSR: Geometric Super-Resolution",
+      description: "Training-free medical image SR using SE(2) Sub-Riemannian geometry. Zero-shot cross-modality generalization (CT→MRI). Under review at Pattern Recognition (JCR Q1).",
+      technologies: ["PyTorch", "Python", "SimpleITK", "Medical Imaging", "Geometric Deep Learning"],
+      image: "/assets/geosr.png", // add a result comparison image
+      github: "https://github.com/hussainmujahid/geosr-demo",
+      demo: "https://github.com/hussainmujahid/geosr-demo",
       featured: true,
-      keyFeatures: [
-        "Multi-store support with separate admin dashboards",
-        "Real-time CRUD operations with WebSocket",
-        "Product management with image upload (up to 6 images)",
-        "Shopping cart and secure checkout process",
-        "Order tracking and payment management",
-        "Super admin dashboard for platform management",
-        "Customer registration and order history",
-        "Dark/light mode with theme persistence"
-      ]
     },
     {
       id: 2,
-      name: "Cloth Inventory Shop - Desktop Application",
-      description: "Desktop inventory management system for cloth shops built with Electron.js. Features include product management, stock tracking, sales recording, customer management, and comprehensive reporting.",
-      technologies: ["Electron.js", "React.js", "SQLite", "Tailwind CSS", "Chart.js", "PDF generation"],
-      image: "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=600",
-      demo: "https://github.com/mujahidhussain/cloth-inventory-desktop",
-      github: "https://github.com/mujahidhussain/cloth-inventory-desktop",
+      name: "MedRF-SR: Rectified Flow for MRI SR",
+      description: "Single-step 2.5D residual rectified flow for medical MRI super-resolution. Major revision at ESWA (JCR Q1, IF 9.4).",
+      technologies: ["PyTorch", "Rectified Flow", "Diffusion Models", "MRI"],
+      image: "/assets/medrf.png",
+      github: "https://github.com/hussainmujahid/medrf-sr",
+      demo: "https://github.com/hussainmujahid/medrf-sr",
       featured: true,
-      keyFeatures: [
-        "Cross-platform desktop application (Windows/Mac/Linux)",
-        "Complete inventory management (add, edit, delete products)",
-        "Real-time stock tracking and low stock alerts",
-        "Sales recording with invoice generation",
-        "Customer management and purchase history",
-        "Daily, monthly, and yearly sales reports",
-        "PDF invoice generation and printing",
-        "User authentication with role-based access",
-        "Data backup and restore functionality",
-        "Dark mode support with system preference detection"
-      ]
     },
     {
       id: 3,
-      name: "SafeAgingAI - Elderly Safety Monitoring",
-      description: "AI-powered intelligent monitoring system for elderly safety. Awarded 3rd Prize in Huawei Cup - 7th China Graduate AI Innovation Competition (International Group).",
-      technologies: ["Python", "Deep Learning", "Computer Vision", "PyTorch", "TensorFlow", "OpenCV"],
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600",
-      demo: "#",
-      github: "https://github.com/mujahidhussain/safeaging-ai",
+      name: "SafeAging AI",
+      description: "AI-based elderly safety monitoring system using computer vision and deep learning. Third Prize, 7th China Graduate AI Innovation Competition (Huawei Cup).",
+      technologies: ["Python", "OpenCV", "Deep Learning", "Computer Vision"],
+      image: "/assets/safeaging.png",
+      github: "https://github.com/hussainmujahid/safeaging-ai",
+      demo: "https://github.com/hussainmujahid/safeaging-ai",
       featured: true,
-      award: "Huawei Cup - 3rd Prize (International Group)",
-      certificateNumber: "2025GJ010",
-      keyFeatures: [
-        "Real-time elderly activity monitoring",
-        "Fall detection and emergency alerts",
-        "Behavior pattern analysis",
-        "Health parameter tracking",
-        "AI-powered anomaly detection",
-        "Caregiver notification system"
-      ]
     },
     {
       id: 4,
-      name: "Image Super-Resolution Research",
-      description: "Advanced deep learning research project focused on enhancing image resolution using state-of-the-art neural network architectures. Part of Master's thesis at Ocean University of China.",
-      technologies: ["Python", "PyTorch", "TensorFlow", "OpenCV", "CNN", "GANs", "Transformer"],
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600",
-      demo: "#",
-      github: "https://github.com/mujahidhussain/image-super-resolution",
-      featured: true,
-      keyFeatures: [
-        "SRCNN, VDSR, EDSR, SRGAN implementations",
-        "Attention mechanisms for better reconstruction",
-        "Perceptual loss and adversarial training",
-        "Benchmark testing on Set5, Set14, BSD100",
-        "Quantitative metrics (PSNR, SSIM)",
-        "Real-world image enhancement"
-      ]
+      name: "Duly Noted Designs",
+      description: "Collaborative team project. I served as Frontend Developer, building responsive UI components.",
+      technologies: ["React", "JavaScript", "CSS"],
+      image: "/assets/dulynoted.png",
+      github: "https://duly-noted-designs.vercel.app/",
+      demo: "https://duly-noted-designs.vercel.app/",
+      featured: false,
     },
     {
       id: 5,
-      name: "Student Attendance System",
-      description: "Comprehensive student attendance system with real-time tracking, reporting, and multi-device accessibility.",
-      technologies: ["PHP", "Bootstrap", "JavaScript", "MySQL", "HTML5", "CSS3"],
-      image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600",
-      demo: "https://attendance-system.demo",
-      github: "https://github.com/mujahidhussain/attendance-system",
+      name: "Sterne Doc (React)",
+      description: "React-based document management application. Collaborative project — I implemented UI components and API integration.",
+      technologies: ["React", "REST API", "JavaScript"],
+      image: "/assets/sternedoc.png",
+      github: "https://github.com/umairtahiri/sterne-doc-react",
+      demo: "https://github.com/umairtahiri/sterne-doc-react",
       featured: false,
-      keyFeatures: [
-        "Real-time attendance marking",
-        "Student and course management",
-        "Automated report generation",
-        "Parent/guardian notifications",
-        "Multiple report formats (PDF/Excel)",
-        "Dashboard with analytics"
-      ]
     },
     {
       id: 6,
-      name: "TaskFlow Pro",
-      description: "Project management tool with Kanban boards, real-time updates, and team collaboration features.",
-      technologies: ["React.js", "Node.js", "Socket.io", "PostgreSQL", "Tailwind CSS"],
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600",
-      demo: "https://taskflow-pro.vercel.app",
-      github: "https://github.com/mujahidhussain/taskflow",
+      name: "Reactrix",
+      description: "React component marketplace with premium copy-paste components. Built with Next.js, Tailwind CSS, and Framer Motion.",
+      technologies: ["Next.js", "Tailwind CSS", "Framer Motion", "React"],
+      image: "/assets/reactrix.png",
+      github: "https://reactrix-sage.vercel.app/",
+      demo: "https://reactrix-sage.vercel.app/",
       featured: false,
-      keyFeatures: [
-        "Drag-and-drop Kanban boards",
-        "Real-time task updates",
-        "Team collaboration tools",
-        "Task assignments and due dates",
-        "Activity logging",
-        "File attachments"
-      ]
-    }
+    },
+    {
+      id: 7,
+      name: "Student Attendance System (SAS)",
+      description: "Web-based attendance system. Best Project Award, University of Sindh. Built with PHP, MySQL, Bootstrap.",
+      technologies: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
+      image: "/assets/sas.png",
+      github: "https://github.com/hussainmujahid/sas",
+      demo: "https://github.com/hussainmujahid/sas",
+      featured: false,
+    },
   ],
-  
+
+  // Skills (from CV)
+  skills: {
+    frontend: ["React", "Next.js", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Material-UI"],
+    backend: ["PHP", "RESTful APIs", "GraphQL"],
+    database: ["MySQL", "MongoDB"],
+    tools: ["PyTorch", "Python", "Linux", "OpenCV", "SimpleITK", "Git", "LaTeX", "Gradio", "Streamlit"],
+  },
+
+  // Achievements
+  achievements: [
+    {
+      title: "7th China Graduate AI Innovation Competition (Huawei Cup)",
+      award: "Third Prize (International Group)",
+      institution: "Huawei Cup",
+      date: "2025",
+      project: "SafeAging AI: Intelligent Monitoring for Elderly Safety",
+      certificateNumber: "2025GJ010",
+      team: "International Group",
+      supervisor: "Prof. Li Yuezun (OUC)",
+    },
+    {
+      title: "University of Sindh",
+      award: "Silver Medalist — B.S. Software Engineering",
+      institution: "University of Sindh",
+      date: "2019",
+    },
+    {
+      title: "University of Sindh",
+      award: "Final Year Second Best Project Award (SAS)",
+      institution: "University of Sindh",
+      date: "2018",
+    },
+    {
+      title: "Chinese Government Scholarship (CSC)",
+      award: "Full Scholarship for Master's Studies",
+      institution: "China Scholarship Council",
+      date: "2024–2027",
+    },
+  ],
+
+  // Languages
   languages: [
-    { name: "Urdu", level: "Native", proficiency: "Mother tongue" },
-    { name: "English", level: "C2 Proficient", proficiency: "Listening, Reading, Writing, Speaking - All C2" },
-    { name: "Chinese", level: "HSK 3", proficiency: "Intermediate - Conversational" }
+    { name: "English", level: "C2", proficiency: "Proficient" },
+    { name: "Urdu", level: "Native", proficiency: "Native Speaker" },
+    { name: "Chinese", level: "A1", proficiency: "Basic" },
   ],
-  
-  certifications: [
-    "Huawei Cup - 3rd Prize, China Graduate AI Innovation Competition (2025)",
-    "Silver Medalist - University of Sindh (2018)",
-    "Final Year Second Best Project Award (2018)",
-    "Professional Development Workshops in CS Education"
-  ]
 };

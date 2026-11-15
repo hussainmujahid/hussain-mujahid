@@ -42,14 +42,15 @@ export default function Education() {
             <p className="text-gray-600 dark:text-gray-400 text-sm">
               Ocean University of China | Master's Thesis Research
             </p>
-            <div className="mt-3 flex flex-wrap gap-2">
-              <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-600 text-xs rounded-full">MedRF-SR (Mine)</span>
-              <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-600 text-xs rounded-full">SRCNN</span>
-              <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-600 text-xs rounded-full">VDSR</span>
-              <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-600 text-xs rounded-full">EDSR</span>
-              <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-600 text-xs rounded-full">SRGAN</span>
-              <span className="px-2 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-600 text-xs rounded-full">Transformers</span>
-            </div>
+            {personalInfo.education[0].researchArea && (
+              <div className="mt-3 flex flex-wrap gap-2">
+                {["MedRF-SR", "GeoSR", "Rectified Flow", "Zero-Shot SR", "CT→MRI"].map((tag, i) => (
+                  <span key={i} className="px-2 py-1 bg-purple-100 dark:bg-purple-900/30 text-purple-600 text-xs rounded-full">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
           </motion.div>
           
           {personalInfo.education.map((edu, idx) => (
